@@ -1,0 +1,10 @@
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+
+.top_container {
+    border: 3px solid #efefef;
+    background-color: #ffffff;
+    padding: 15px 0;
+    margin: auto;
+    color: #000000;
+    text-align: center;
+}
