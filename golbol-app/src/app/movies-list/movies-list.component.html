@@ -1,0 +1,15 @@
+<div class="center_container">
+  <h2> Movies </h2>
+  <table>
+    <tr>
+      <th>Movie Name</th>
+      <th>Movie Year</th>
+      <th>Movie Details</th>
+    </tr>
+    <tr *ngFor="let movie of movies" >
+        <td> {{movie.name}}</td>
+        <td> {{movie.release_year}}</td>
+        <td><button id="{{movie.id}}" (click)="getMovieDetails($event)"> Know More</button></td>
+    </tr>
+  </table>
+</div>
